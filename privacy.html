@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinh Sach Bao Mat - Horos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --cream: #faf6f0;
+            --orange: #d4763c;
+            --brown-dark: #2c1810;
+            --brown: #5a3a28;
+            --paper: #f5f0e8;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--cream);
+            color: var(--brown-dark);
+            line-height: 1.8;
+        }
+        nav {
+            background: rgba(250, 246, 240, 0.9);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(212, 118, 60, 0.1);
+            padding: 16px 24px;
+        }
+        nav a {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--brown-dark);
+            font-weight: 700;
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+        .nav-logo-icon {
+            width: 36px;
+            height: 36px;
+            background: var(--orange);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 24px 80px;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            color: var(--brown);
+            opacity: 0.6;
+            font-size: 14px;
+            margin-bottom: 48px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            color: var(--orange);
+        }
+        p, li {
+            font-size: 15px;
+            color: var(--brown);
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        li { margin-bottom: 8px; }
+        a { color: var(--orange); }
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            color: var(--orange);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">
+            <div class="nav-logo-icon">&#9775;</div>
+            HOROS
+        </a>
+    </nav>
+
+    <div class="container">
+        <h1>Chinh Sach Bao Mat</h1>
+        <p class="last-updated">Cap nhat lan cuoi: 14/03/2026</p>
+
+        <p>Horos ("chung toi", "cua chung toi") cam ket bao ve quyen rieng tu cua ban. Chinh sach bao mat nay giai thich cach chung toi thu thap, su dung va bao ve thong tin cua ban khi ban su dung ung dung Horos ("Ung dung").</p>
+
+        <h2>1. Thong Tin Chung Toi Thu Thap</h2>
+        <p><strong>Thong tin ban cung cap truc tiep:</strong></p>
+        <ul>
+            <li>Ho ten (de tao la so tu vi)</li>
+            <li>Ngay, thang, nam sinh</li>
+            <li>Gio sinh</li>
+            <li>Gioi tinh</li>
+        </ul>
+        <p>Cac thong tin nay duoc luu tru cuc bo tren thiet bi cua ban va khong duoc gui den may chu cua chung toi, ngoai tru khi ban su dung tinh nang Chat AI.</p>
+
+        <p><strong>Thong tin tu dong thu thap:</strong></p>
+        <ul>
+            <li>Du lieu su dung ung dung (nhu tinh nang duoc su dung, thoi gian su dung)</li>
+            <li>Thong tin thiet bi (loai thiet bi, phien ban he dieu hanh)</li>
+            <li>Du lieu mua hang va dang ky (thong qua Apple App Store va RevenueCat)</li>
+        </ul>
+
+        <h2>2. Cach Chung Toi Su Dung Thong Tin</h2>
+        <p>Chung toi su dung thong tin cua ban de:</p>
+        <ul>
+            <li>Tao va hien thi la so tu vi ca nhan cua ban</li>
+            <li>Cung cap tinh nang Chat AI (thong qua Google Gemini API)</li>
+            <li>Xu ly dang ky va mua hang trong ung dung</li>
+            <li>Cai thien va phat trien ung dung</li>
+            <li>Ho tro khach hang</li>
+        </ul>
+
+        <h2>3. Dich Vu Ben Thu Ba</h2>
+        <p>Ung dung cua chung toi su dung cac dich vu ben thu ba sau:</p>
+        <ul>
+            <li><strong>RevenueCat:</strong> Quan ly dang ky va mua hang trong ung dung. RevenueCat co the thu thap du lieu giao dich va thiet bi. Xem <a href="https://www.revenuecat.com/privacy" target="_blank">Chinh sach bao mat cua RevenueCat</a>.</li>
+            <li><strong>Google Gemini API:</strong> Xu ly cac yeu cau Chat AI. Noi dung hoi thoai cua ban duoc gui den Google de xu ly. Xem <a href="https://ai.google.dev/terms" target="_blank">Dieu khoan cua Google AI</a>.</li>
+            <li><strong>Apple App Store:</strong> Xu ly thanh toan va dang ky. Xem <a href="https://www.apple.com/legal/privacy/" target="_blank">Chinh sach bao mat cua Apple</a>.</li>
+        </ul>
+
+        <h2>4. Luu Tru Du Lieu</h2>
+        <p>Du lieu ca nhan cua ban (ho ten, ngay sinh, gio sinh) duoc luu tru cuc bo tren thiet bi cua ban. Chung toi khong luu tru thong tin nay tren may chu cua chung toi. Khi ban xoa ung dung, tat ca du lieu cuc bo se bi xoa.</p>
+
+        <h2>5. Bao Mat Du Lieu</h2>
+        <p>Chung toi ap dung cac bien phap bao mat hop ly de bao ve thong tin cua ban, bao gom ma hoa du lieu khi truyen tai va luu tru an toan tren thiet bi cua ban.</p>
+
+        <h2>6. Quyen Cua Ban</h2>
+        <p>Ban co quyen:</p>
+        <ul>
+            <li>Truy cap thong tin ca nhan cua ban duoc luu tru trong ung dung</li>
+            <li>Xoa du lieu cua ban bang cach xoa ung dung</li>
+            <li>Tu choi cung cap thong tin (mot so tinh nang co the khong kha dung)</li>
+            <li>Lien he voi chung toi de yeu cau xoa bat ky du lieu nao</li>
+        </ul>
+
+        <h2>7. Tre Em</h2>
+        <p>Ung dung cua chung toi khong danh cho tre em duoi 13 tuoi. Chung toi khong co chu dich thu thap thong tin tu tre em duoi 13 tuoi. Neu ban la phu huynh hoac nguoi giam ho va phat hien rang con ban da cung cap thong tin cho chung toi, vui long lien he de chung toi xoa thong tin do.</p>
+
+        <h2>8. Thay Doi Chinh Sach</h2>
+        <p>Chung toi co the cap nhat chinh sach bao mat nay theo thoi gian. Chung toi se thong bao cho ban ve bat ky thay doi quan trong nao thong qua ung dung hoac email.</p>
+
+        <h2>9. Lien He</h2>
+        <p>Neu ban co bat ky cau hoi nao ve chinh sach bao mat nay, vui long lien he voi chung toi tai:</p>
+        <p><strong>Email:</strong> <a href="mailto:support@horos.app">support@horos.app</a></p>
+
+        <a href="/" class="back-link">&larr; Quay ve trang chu</a>
+    </div>
+</body>
+</html>
